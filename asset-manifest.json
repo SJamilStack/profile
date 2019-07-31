@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SJamilStack/profile/static/css/main.fce68853.chunk.css",
-    "main.js": "/SJamilStack/profile/static/js/main.3e5babd6.chunk.js",
-    "main.js.map": "/SJamilStack/profile/static/js/main.3e5babd6.chunk.js.map",
-    "runtime~main.js": "/SJamilStack/profile/static/js/runtime~main.244d58b8.js",
-    "runtime~main.js.map": "/SJamilStack/profile/static/js/runtime~main.244d58b8.js.map",
-    "static/css/2.4800e0c9.chunk.css": "/SJamilStack/profile/static/css/2.4800e0c9.chunk.css",
-    "static/js/2.d3bf3f46.chunk.js": "/SJamilStack/profile/static/js/2.d3bf3f46.chunk.js",
-    "static/js/2.d3bf3f46.chunk.js.map": "/SJamilStack/profile/static/js/2.d3bf3f46.chunk.js.map",
-    "index.html": "/SJamilStack/profile/index.html",
-    "precache-manifest.6420c4510ca200b10fc12d99c09d1ca1.js": "/SJamilStack/profile/precache-manifest.6420c4510ca200b10fc12d99c09d1ca1.js",
-    "service-worker.js": "/SJamilStack/profile/service-worker.js",
-    "static/css/2.4800e0c9.chunk.css.map": "/SJamilStack/profile/static/css/2.4800e0c9.chunk.css.map",
-    "static/css/main.fce68853.chunk.css.map": "/SJamilStack/profile/static/css/main.fce68853.chunk.css.map",
-    "static/media/font-awesome.min.css": "/SJamilStack/profile/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/profile.jpg": "/SJamilStack/profile/static/media/profile.5c108329.jpg"
+    "main.css": "/profile/static/css/main.fce68853.chunk.css",
+    "main.js": "/profile/static/js/main.3e5babd6.chunk.js",
+    "main.js.map": "/profile/static/js/main.3e5babd6.chunk.js.map",
+    "runtime~main.js": "/profile/static/js/runtime~main.cc8686f1.js",
+    "runtime~main.js.map": "/profile/static/js/runtime~main.cc8686f1.js.map",
+    "static/css/2.e80889e2.chunk.css": "/profile/static/css/2.e80889e2.chunk.css",
+    "static/js/2.d3bf3f46.chunk.js": "/profile/static/js/2.d3bf3f46.chunk.js",
+    "static/js/2.d3bf3f46.chunk.js.map": "/profile/static/js/2.d3bf3f46.chunk.js.map",
+    "index.html": "/profile/index.html",
+    "precache-manifest.8dc8ca574b49c552c80d9c1efecad46d.js": "/profile/precache-manifest.8dc8ca574b49c552c80d9c1efecad46d.js",
+    "service-worker.js": "/profile/service-worker.js",
+    "static/css/2.e80889e2.chunk.css.map": "/profile/static/css/2.e80889e2.chunk.css.map",
+    "static/css/main.fce68853.chunk.css.map": "/profile/static/css/main.fce68853.chunk.css.map",
+    "static/media/font-awesome.min.css": "/profile/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/profile.jpg": "/profile/static/media/profile.5c108329.jpg"
   }
 }
