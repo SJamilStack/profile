@@ -3,7 +3,7 @@ import React from "react";
 import "./experience.styles.scss";
 
 const Experience = props => {
-  console.log(props);
+  console.log('exp: ', props);
   return (
     <section className="experience">
       <div className="row">
