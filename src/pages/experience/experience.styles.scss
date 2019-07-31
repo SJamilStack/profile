@@ -1,0 +1,15 @@
+.experience {
+  display: block;
+  position: static;
+
+  .experience-inner {
+    padding-bottom: 45px;
+    padding-top: 10px;
+
+    .experience-title {
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+}

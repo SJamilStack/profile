@@ -1,0 +1,131 @@
+
+    {
+      "id": 1,
+      "name": "Md Shihab Jamil",
+      "role": "Full Stack Developer",
+      "email": "shihabims@gmail.com",
+      "linkedin": "",
+      "blog": "www.medium.com/@shihabtech",
+      "awards": ["Best Developer, IQVIA, 2014", "CEO Award, IQVIA, 2015"],
+      "shortnote": "8+ years of experience in the field of Software Industry in Bangladesh. Willing to jump in to any problem and able to develop “outside the box” solutions.",
+      "leadtext": "I am native in Bengali, fluent in English and write “okay” in programming",
+      "experience": [
+        {
+          "id": 1,
+          "company": "Escenic Asia Ltd.",
+          "url": "www.escenic.com",
+          "designation": "Full Stack Developer",
+          "from": "Sep, 2018",
+          "to": "Present",
+          "skills": [
+            "React",
+            "Node JS",
+            "Express JS",
+            "Javascript",
+            "ECMAScript6",
+            "Twig",
+            "GraphQL",
+            "MySQL",
+            "Docker",
+            "Jenkins",
+            "HTML",
+            "CSS",
+            "Git",
+            "BitBucket",
+            "Jira"
+          ]
+        },
+        {
+          "id": 2,
+          "company": "IQVIA",
+          "url": "www.iqvia.com",
+          "designation": "Senior Software Engineer",
+          "from": "Jun, 2011",
+          "to": "Aug, 2018",
+          "skills": [
+            "MSSQL",
+            "Oracle",
+            "SSAS",
+            "SSIS",
+            "ETL",
+            "MDX",
+            "SQL",
+            "PowerBI",
+            "Tableau",
+            "HTML",
+            "CSS",
+            "C#",
+            "Javascript",
+            "SVN",
+            "VSTS",
+            "Jira"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "id": 1,
+          "uni": "Khulna University of Engineering and Technology",
+          "shortname": "KUET",
+          "location": "Khulna, Bangladesh",
+          "url": "www.kuet.ac.bd",
+          "major": "Computer Science and Engineering",
+          "degree": "BSc.",
+          "grade": "3.36/4.00"
+        },
+        {
+          "id": 2,
+          "uni": "New Govt. Degree College",
+          "shortname": "NGDC",
+          "location": "Rajshahi, Bangladesh",
+          "url": "https://ngdc-raj.ac.bd/",
+          "major": "Science",
+          "degree": "HSC",
+          "grade": "5.00/5.00"
+        },
+        {
+          "id": 1,
+          "uni": "Govt. Laboratory High School",
+          "shortname": "RGLHS",
+          "location": "Rajshahi, Bangladesh",
+          "url": "https://rglhs.edu.bd/",
+          "major": "Science",
+          "degree": "SSC",
+          "grade": "5.00/5.00"
+        }
+      ],
+      "testimonials": [
+        {
+          "quote": "Shihab is very Bright and Scholar in his academic as well as professional career.",
+          "by": "Md Mesbah Ul Awal",
+          "role": "IT Professional, Currently pursuing Masters in Germmany",
+          "connection": "Classmate and Roommate from KUET"
+        },
+        {
+          "quote": "Shihab is an outstanding resource. I have worked with him closely. He does everything very professionally. More importantly, he can pick up things very quickly. He has worked on varieties of technologies (Database, SQL, OLAP Cubes, .NET) and made his mark everywhere. Always demonstrates highest level of dedication and professionalism. He is always keen to learn new things. A great team player as well. I wish him all the best.",
+          "by": "Zahid Hussain",
+          "role": "Business Inntelligence, Data Analytics",
+          "connection": "Manager, IQVIA"
+        },
+        {
+          "quote": "I have managed and worked with Shihab for around 2 years at IQVIA. One of the best database developers I had in my team. I have found him to be highly professional, technically very sound and proactively engaging himself to work with latest technologies. I wish all the best to him and look forward to continue working with him in future as well.",
+          "by": "Sharafat Hossain",
+          "role": "Manager, IT",
+          "connection": "Manager, IQVIA"
+        },
+        {
+          "quote": "Shihab Jamil is a Great Developer, he is very proficient in technologies like Data Warehousing, SQL Server, Analysis services and so on. Except that he is very eager to learn to new technologies. If you are thinking about something with data he is the guy you can rely on.",
+          "by": "Shihab Uddin",
+          "role": "Entrepreneur",
+          "connection": "Classmate, KUET and Co-worker, IQVIA"
+        },
+        {
+          "quote": "Shihab Jamil is a Great Developer, he is very proficient in technologies like Data Warehousing, SQL Server, Analysis services and so on. Except that he is very eager to learn to new technologies. If you are thinking about something with data he is the guy you can rely on.",
+          "by": "Debashish Roy",
+          "role": "Business Leadership and Manager",
+          "connection": "Project Manager, IQVIA"
+        }
+      ]
+    }
+  
+

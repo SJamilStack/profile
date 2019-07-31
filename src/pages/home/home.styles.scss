@@ -1,0 +1,15 @@
+.home {
+  display: block;
+  position: static;
+
+  .about-inner {
+    padding-bottom: 45px;
+    padding-top: 10px;
+
+    .about-title {
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+}
