@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./intro.styles.scss";
-import dp from "../../../src/assets/images/profile.jpg";
+import dp from "../../../src/assets/images/jam.jpg";
 
 const Intro = ({ id, name, email, role }) => {
   return (

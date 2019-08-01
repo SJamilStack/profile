@@ -1,0 +1,80 @@
+ul.education {
+  margin-left: 18px;
+  margin-top: 10px;
+
+  li {
+    list-style: none;
+  }
+
+  li:first-child {
+    padding: 0 0 30px 10px;
+    border-left: solid 2px #ececec;
+    span {
+      background: #ffc500;
+      float: left;
+      padding: 15px 11px;
+      margin-left: -37px;
+      width: 53px;
+      height: 53px;
+      text-align: center;
+      border-radius: 50%;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 35px;
+      line-height: 55px;
+    }
+  }
+  li.edu::before {
+    border: solid 2px #ffb100;
+    content: "";
+    width: 8px;
+    height: 8px;
+    font-size: 8px;
+    border-radius: 50px;
+    margin-left: -35px;
+    display: block;
+    font-weight: 400;
+    background: #fff;
+    position: absolute;
+  }
+
+  li.edu {
+    padding: 0 0 40px 30px;
+    border-left: solid 2px #ececec;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    .duration {
+      font-size: 13px;
+      display: block;
+      line-height: 8px;
+    }
+
+    .uni-title {
+      font-size: 16px;
+      margin-top: 10px;
+      font-weight: bold;
+      .uni-url {
+        font-weight: normal;
+        font-size: 13px;
+        color: #5d5c5c;
+        padding-left: 5px;
+      }
+    }
+    .major,
+    .grade,
+    .location {
+      font-size: 14px;
+      color: #6e6a6a;
+    }
+  }
+
+  li:last-child {
+    border: 0;
+    margin-left: 2px;
+  }
+}

@@ -1,0 +1,91 @@
+ul.experience {
+  margin-left: 18px;
+
+  li {
+    list-style: none;
+  }
+
+  li:first-child {
+    padding: 0 0 30px 10px;
+    border-left: solid 2px #ececec;
+    span {
+      background: #ffc500;
+      float: left;
+      padding: 15px 11px;
+      margin-left: -37px;
+      width: 53px;
+      height: 53px;
+      text-align: center;
+      border-radius: 50%;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 35px;
+      line-height: 55px;
+    }
+  }
+  li.work::before {
+    border: solid 2px #ffb100;
+    content: "";
+    width: 8px;
+    height: 8px;
+    font-size: 8px;
+    border-radius: 50px;
+    margin-left: -35px;
+    display: block;
+    font-weight: 400;
+    background: #fff;
+    position: absolute;
+  }
+
+  li.work {
+    padding: 0 0 40px 30px;
+    border-left: solid 2px #ececec;
+
+    .duration {
+      font-size: 12px;
+      display: block;
+      line-height: 8px;
+    }
+
+    .designation {
+      font-size: 19px;
+      margin-top: 10px;
+    }
+
+    .company-title {
+      font-size: 16px;
+      .company-url {
+        font-weight: normal;
+        font-size: 13px;
+        color: #5d5c5c;
+        padding-left: 5px;
+      }
+    }
+
+    .skills {
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .skill-item {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        padding: 8px 6px 15px 0px;
+        span {
+          font-size: 13px;
+          padding: 8px;
+          background: #f2f2f2;
+          border-radius: 6px;
+          color: rgb(29, 29, 18);
+        }
+      }
+    }
+  }
+
+  li:last-child {
+    border: 0;
+    margin-left: 2px;
+  }
+}

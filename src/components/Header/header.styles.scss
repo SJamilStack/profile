@@ -24,11 +24,17 @@
           display: block;
         }
       }
-      li.tab.active {
-        a {
+      li.tab {
+        a.is-active {
           color: #ffb100;
         }
       }
+
+      // li.tab.active {
+      //   a {
+      //     color: #ffb100;
+      //   }
+      // }
     }
 
     .dynamic {

@@ -1,13 +1,16 @@
 import React from "react";
 import Header from "../Header/header.component";
-import Home from "../../pages/home/home.component";
+import Home from "../../pages/home/home.pages";
+import Experiences from "../../pages/experiences/experiences.pages";
+import Educations from "../../pages/educations/educations.pages";
+import Quotes from "../../pages/quotes/quotes.pages";
+
 import { Switch, Route } from "react-router-dom";
 
 import "./rightbar.styles.scss";
-import Experience from "../../pages/experience/experience.component";
 
 const Rightbar = props => {
-  const { experience } = props.profile;
+  const { experience, education, testimonials } = props.profile;
 
   return (
     <div className="row rightbar">
@@ -18,7 +21,15 @@ const Rightbar = props => {
             <Route exact path="/" component={Home} />
             <Route
               path="/experience"
-              render={() => <Experience experience={experience} />}
+              render={() => <Experiences experiences={experience} />}
+            />
+            <Route
+              path="/education"
+              render={() => <Educations educations={education} />}
+            />
+            <Route
+              path="/quote"
+              render={() => <Quotes quotes={testimonials} />}
             />
           </Switch>
         </div>

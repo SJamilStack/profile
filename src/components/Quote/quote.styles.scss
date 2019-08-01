@@ -1,0 +1,41 @@
+.quote {
+  padding-left: 18px;
+  padding-top: 10px;
+  height: 650px;
+  overflow-y: scroll;
+  .title {
+    padding-bottom: 30px;
+  }
+  .quote-item {
+    background: rgb(245, 245, 245);
+    padding: 8px 16px 8px 16px;
+    border-left: solid 3px #eecb7b;
+    border-radius: 6px;
+    .quote-icon {
+      color: #868282;
+      font-size: 11px;
+    }
+    .words {
+      font-style: italic;
+      color: rgb(105, 103, 103);
+    }
+  }
+  .by-people {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    .by {
+      font-weight: bold;
+    }
+  }
+  &::-webkit-scrollbar {
+    width: 5px;
+    background: #eee;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+}
