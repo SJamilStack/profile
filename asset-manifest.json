@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.fce68853.chunk.css",
-    "main.js": "/profile/static/js/main.e14353b0.chunk.js",
-    "main.js.map": "/profile/static/js/main.e14353b0.chunk.js.map",
-    "runtime~main.js": "/profile/static/js/runtime~main.cc8686f1.js",
-    "runtime~main.js.map": "/profile/static/js/runtime~main.cc8686f1.js.map",
-    "static/css/2.e80889e2.chunk.css": "/profile/static/css/2.e80889e2.chunk.css",
-    "static/js/2.bae1a6bc.chunk.js": "/profile/static/js/2.bae1a6bc.chunk.js",
-    "static/js/2.bae1a6bc.chunk.js.map": "/profile/static/js/2.bae1a6bc.chunk.js.map",
-    "index.html": "/profile/index.html",
-    "precache-manifest.58dc9d80da082ea2416087b74fe8f8ee.js": "/profile/precache-manifest.58dc9d80da082ea2416087b74fe8f8ee.js",
-    "service-worker.js": "/profile/service-worker.js",
-    "static/css/2.e80889e2.chunk.css.map": "/profile/static/css/2.e80889e2.chunk.css.map",
-    "static/css/main.fce68853.chunk.css.map": "/profile/static/css/main.fce68853.chunk.css.map",
-    "static/media/font-awesome.min.css": "/profile/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/profile.jpg": "/profile/static/media/profile.5c108329.jpg"
+    "main.css": "/sjamilstack.github.io/static/css/main.b0f4b2bc.chunk.css",
+    "main.js": "/sjamilstack.github.io/static/js/main.4a57d19e.chunk.js",
+    "main.js.map": "/sjamilstack.github.io/static/js/main.4a57d19e.chunk.js.map",
+    "runtime~main.js": "/sjamilstack.github.io/static/js/runtime~main.019e80cc.js",
+    "runtime~main.js.map": "/sjamilstack.github.io/static/js/runtime~main.019e80cc.js.map",
+    "static/css/2.a7f11879.chunk.css": "/sjamilstack.github.io/static/css/2.a7f11879.chunk.css",
+    "static/js/2.61c6ed68.chunk.js": "/sjamilstack.github.io/static/js/2.61c6ed68.chunk.js",
+    "static/js/2.61c6ed68.chunk.js.map": "/sjamilstack.github.io/static/js/2.61c6ed68.chunk.js.map",
+    "index.html": "/sjamilstack.github.io/index.html",
+    "precache-manifest.dcf9ac51d68a6524489634140ede2af5.js": "/sjamilstack.github.io/precache-manifest.dcf9ac51d68a6524489634140ede2af5.js",
+    "service-worker.js": "/sjamilstack.github.io/service-worker.js",
+    "static/css/2.a7f11879.chunk.css.map": "/sjamilstack.github.io/static/css/2.a7f11879.chunk.css.map",
+    "static/css/main.b0f4b2bc.chunk.css.map": "/sjamilstack.github.io/static/css/main.b0f4b2bc.chunk.css.map",
+    "static/media/font-awesome.min.css": "/sjamilstack.github.io/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/jam.jpg": "/sjamilstack.github.io/static/media/jam.0617de05.jpg"
   }
 }
