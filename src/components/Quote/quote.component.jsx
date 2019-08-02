@@ -8,26 +8,31 @@ import "./quote.styles.scss";
 
 const Quote = ({ quotes }) => {
   return (
-    <div className="quote col-md-12">
-      <h4 className="title">The Kind Words</h4>
+    <ul className="quote col-md-12">
+      <li>
+        <span>
+          <FontAwesomeIcon icon={faQuoteLeft} />
+        </span>
+        <h2 className="title">The Kind Words</h2>
+      </li>
 
       {quotes.map(q => (
-        <React.Fragment>
-          <div className="quote-item">
-            <span className="quote-icon">
+        <li key={q.id} className="quote-item">
+          <p className="by-whom">
+            <span className="by">{q.by}, </span>
+          </p>
+          <p className="role">{q.role}</p>
+
+          <p className="words">
+            <span className="icon">
               <FontAwesomeIcon icon={faQuoteLeft} />
             </span>
-            <p className="words">{q.quote}</p>
-          </div>
-          <div className="by-people">
-            <p>
-              <span className="by">{q.by}, </span>
-              <span className="role">{q.role}</span>
-            </p>
-          </div>
-        </React.Fragment>
+            <br />
+            {q.quote}
+          </p>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 

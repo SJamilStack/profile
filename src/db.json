@@ -3,32 +3,36 @@
   "name": "Md Shihab Jamil",
   "role": "Full Stack Developer",
   "email": "shihabims@gmail.com",
-  "linkedin": "",
-  "blog": "www.medium.com/@shihabtech",
+  "dob": "31st December, 1988",
+  "phone": "+880-1716-726-329",
+  "location": "Dhaka, Bangladesh",
+  "skype": "shihab_jamil",
   "awards": ["Best Developer, IQVIA, 2014", "CEO Award, IQVIA, 2015"],
-  "shortnote": "8+ years of experience in the field of Software Industry in Bangladesh. Willing to jump in to any problem and able to develop “outside the box” solutions.",
-  "leadtext": "I am native in Bengali, fluent in English and write “okay” in programming",
-  "about": {
-    "line1": "Hi there, this is Shihab",
-    "line2": "I have been involved in software development industry from 2011",
-    "line3": "Willing to jump into any problem and develop 'outside the box' solutions",
-    "line4": "I am native in Bengali, Fluent in English, Okay in Programming"
-  },
+  "shortnote": "8+ years of experience in the field of Software Industry in Bangladesh.",
+  "leadtext": "Native in Bengali, Fluent in English and 'Okay' in Programming",
+  "about": [
+    "Although I had started my career with Business Intelligence and Datawarehousing developement and had continued those works for 7 years 3 month. But I never stopped learning the up-to-date technologies to cope-up myself with the fast growing tech world. Willing to jump into any problem and develop 'outside the box' solutions.",
+    "Later I have changed my career track from BI to Frontend-Backend Development. On September, 2018 I have joined Escenic Asia Ltd. as a Full Stack Developer.",
+    "I am very passionate about creating stuffs with React, Angular, etc. At the same time I still had the soft corner for Machine Learning and Big Data."
+  ],
   "social": [
+    {
+      "id": "li",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shihabjamil/",
+      "icon": "faLinkedin"
+    },
     {
       "id": "gh",
       "label": "Github",
-      "url": "https://github.com/SJamilStack/"
+      "url": "https://github.com/SJamilStack/",
+      "icon": "faGithub"
     },
     {
       "id": "md",
       "label": "Medium",
-      "url": "https://medium.com/@shihabtech"
-    },
-    {
-      "id": "li",
-      "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/shihabjamil/"
+      "url": "https://medium.com/@shihabtech",
+      "icon": "faMedium"
     }
   ],
   "experience": [
@@ -41,10 +45,12 @@
       "to": "Present",
       "skills": [
         "React",
+        "Redux",
         "Node JS",
         "Express JS",
         "Javascript",
-        "ECMAScript6",
+        "ES6 +",
+        "Python",
         "Twig",
         "GraphQL",
         "MySQL",
@@ -52,9 +58,11 @@
         "Jenkins",
         "HTML",
         "CSS",
+        "SCSS",
         "Git",
         "BitBucket",
-        "Jira"
+        "Jira",
+        "Confluence"
       ]
     },
     {
@@ -72,8 +80,6 @@
         "ETL",
         "MDX",
         "SQL",
-        "PowerBI",
-        "Tableau",
         "HTML",
         "CSS",
         "C#",
@@ -123,7 +129,7 @@
     {
       "quote": "Shihab is very Bright and Scholar in his academic as well as professional career.",
       "by": "Md Mesbah Ul Awal",
-      "role": "IT Professional, Currently pursuing Masters in Germmany",
+      "role": "IT Professional, Currently pursuing Masters in Germany",
       "connection": "Classmate and Roommate from KUET"
     },
     {

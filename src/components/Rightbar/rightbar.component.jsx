@@ -18,7 +18,11 @@ const Rightbar = props => {
       <div className="col-md-12">
         <div id="content" className="panel-container">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route
+              exact
+              path="/"
+              render={() => <Home profile={props.profile} />}
+            />
             <Route
               path="/experience"
               render={() => <Experiences experiences={experience} />}

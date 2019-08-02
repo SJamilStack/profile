@@ -8,15 +8,11 @@ import "font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPaperPlane,
-  faBars,
-  faHome
+  faSuitcase,
+  faHome,
+  faBook,
+  faQuoteLeft
 } from "@fortawesome/fontawesome-free-solid";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faDribbble
-} from "@fortawesome/free-brands-svg-icons";
 
 class Header extends React.Component {
   constructor(props) {
@@ -31,7 +27,7 @@ class Header extends React.Component {
       <header className="col-md-12 header">
         <nav>
           <div className="row">
-            <div className="col-md-7 col-sm-8 col-xs-4">
+            <div className="col-md-8 col-sm-8 col-xs-8 col-8">
               <ul className="tabs">
                 <li className="tab">
                   <NavLink exact to="/" activeClassName="is-active">
@@ -41,36 +37,48 @@ class Header extends React.Component {
 
                 <li className="tab active">
                   <NavLink to="/experience" activeClassName="is-active">
-                    EXPERIENCE
+                    <span className="d-none d-md-block d-lg-block">
+                      EXPERIENCE
+                    </span>
+                    <span className="d-sm-block d-xs-block d-lg-none d-md-none">
+                      <FontAwesomeIcon icon={faSuitcase} />
+                    </span>
                   </NavLink>
                 </li>
 
                 <li className="tab">
                   <NavLink to="/education" activeClassName="is-active">
-                    EDUCATION
+                    <span className="d-none d-md-block d-lg-block">
+                      EDUCATION
+                    </span>
+                    <span className="d-sm-block d-xs-block d-lg-none d-md-none">
+                      <FontAwesomeIcon icon={faBook} />
+                    </span>
                   </NavLink>
                 </li>
 
                 <li className="tab">
                   <NavLink to="/quote" activeClassName="is-active">
-                    QUOTE
+                    <span className="d-none d-md-block d-lg-block">
+                      TESTIMONIALS
+                    </span>
+                    <span className="d-sm-block d-xs-block d-lg-none d-md-none">
+                      <FontAwesomeIcon icon={faQuoteLeft} />
+                    </span>
                   </NavLink>
                 </li>
               </ul>
             </div>
-            <div className="col-md-5 col-sm-4 col-xs-8 dynamic">
+            <div className="col-md-4 col-sm-4 col-xs-4 col-4 dynamic">
               <a
-                href="mailto:hi@tavonline.net"
+                href="mailto:shihabims@gmail.com"
                 className="pull-right site-btn icon"
               >
-                Hire Me{" "}
-                <span className="plane">
+                <span className="text">Mail Me</span>
+                <span className="plane-icon">
                   <FontAwesomeIcon icon={faPaperPlane} />
                 </span>
               </a>
-              <div className="hamburger pull-right dn-m dn-l">
-                <FontAwesomeIcon icon={faBars} />
-              </div>
             </div>
           </div>
           <div className="menuout">

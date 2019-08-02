@@ -2,6 +2,7 @@ import React from "react";
 
 import Intro from "../Intro/intro.component";
 import Rightbar from "../Rightbar/rightbar.component";
+import Footer from "../Footer/footer.component";
 
 import profile from "../../db.json";
 
@@ -28,10 +29,11 @@ class Layout extends React.Component {
         <div className="layout container">
           <div className="row">
             <div className="col-lg-3 col-md-12">
-              <Intro id={id} name={name} role={role} email={email} />
+              <Intro profile={profile} />
             </div>
             <div className="col-lg-9 col-md-12">
               <Rightbar profile={profile} />
+              <Footer />
             </div>
           </div>
         </div>

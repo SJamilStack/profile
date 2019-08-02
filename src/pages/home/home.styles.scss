@@ -1,14 +1,95 @@
+$body-font-size: 15px;
+$body-font-color: rgb(59, 58, 58);
+
 .home {
   display: block;
   position: static;
 
   .about-inner {
-    padding-bottom: 45px;
+    padding-left: 18px;
+    padding-right: 25px;
+    padding-bottom: 5px;
     padding-top: 10px;
+    color: #6d6d6d;
 
-    .about-title {
-      h2 {
+    .lines {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .greeting {
+      padding: 0 0 10px 24px;
+      color: #212529;
+      span {
+        background: #ffc500;
+        float: left;
+        padding: 15px 11px;
+        margin-left: -37px;
+        width: 53px;
+        height: 53px;
+        text-align: center;
+        border-radius: 50%;
+      }
+      .title {
         font-size: 18px;
+        font-weight: bold;
+        margin-left: 35px;
+        line-height: 55px;
+        text-transform: uppercase;
+      }
+    }
+
+    .name {
+      text-transform: uppercase;
+      margin-bottom: 1px;
+      margin-left: -1px;
+      padding-top: 10px;
+    }
+    .role {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: rgb(110, 108, 108);
+      padding-bottom: 5px;
+    }
+    .shortnote {
+      font-size: $body-font-size;
+      color: $body-font-color;
+    }
+    .lines {
+      p.line {
+        font-size: $body-font-size;
+        color: $body-font-color;
+        line-height: 25px;
+      }
+    }
+    .leadtext {
+      padding: 15px 0 5px 0;
+      font-size: $body-font-size;
+      color: $body-font-color;
+      font-weight: bold;
+    }
+  }
+
+  .shortbio,
+  .recognition {
+    padding: 18px 18px 0 18px;
+    .award-item {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 5px;
+      font-size: 12px;
+    }
+  }
+  .shortbio {
+    p {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 3px;
+      color: #5a5a5a;
+      font-size: 12px;
+      span {
+        padding-left: 20px;
+        color: #212529;
       }
     }
   }

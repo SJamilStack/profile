@@ -1,5 +1,6 @@
 ul.experience {
-  margin-left: 18px;
+  padding-left: 30px;
+  padding-right: 18px;
 
   li {
     list-style: none;
@@ -44,18 +45,20 @@ ul.experience {
     border-left: solid 2px #ececec;
 
     .duration {
-      font-size: 12px;
+      font-size: 13px;
       display: block;
       line-height: 8px;
     }
 
     .designation {
-      font-size: 19px;
+      font-size: 18px;
       margin-top: 10px;
+      color: #424141;
     }
 
     .company-title {
-      font-size: 16px;
+      font-size: 15px;
+      color: #424141;
       .company-url {
         font-weight: normal;
         font-size: 13px;

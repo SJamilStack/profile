@@ -1,34 +1,84 @@
-.quote {
-  padding-left: 18px;
-  padding-top: 10px;
+ul.quote {
+  padding-left: 30px;
+  padding-right: 18px;
+  margin-top: 10px;
   height: 650px;
   overflow-y: scroll;
-  .title {
-    padding-bottom: 30px;
+  li {
+    list-style: none;
   }
-  .quote-item {
-    background: rgb(245, 245, 245);
-    padding: 8px 16px 8px 16px;
-    border-left: solid 3px #eecb7b;
-    border-radius: 6px;
-    .quote-icon {
-      color: #868282;
-      font-size: 11px;
+
+  li:first-child {
+    padding: 0 0 30px 10px;
+    border-left: solid 2px #ececec;
+    span {
+      background: #ffc500;
+      float: left;
+      padding: 15px 11px;
+      margin-left: -37px;
+      width: 53px;
+      height: 53px;
+      text-align: center;
+      border-radius: 50%;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 35px;
+      line-height: 55px;
+    }
+  }
+  li.quote-item::before {
+    border: solid 2px #ffb100;
+    content: "";
+    width: 8px;
+    height: 8px;
+    font-size: 8px;
+    border-radius: 50px;
+    margin-left: -35px;
+    display: block;
+    font-weight: 400;
+    background: #fff;
+    position: absolute;
+  }
+  li.quote-item {
+    padding: 0 0 40px 30px;
+    border-left: solid 2px #ececec;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    .by-whom {
+      font-size: 15px;
+      display: block;
+      line-height: 8px;
+      .by {
+        font-weight: bold;
+      }
+    }
+    .role {
+      margin-top: 5px;
+      font-size: 12px;
     }
     .words {
+      background: #eee;
+      padding: 10px 15px 10px 15px;
+      border-radius: 3px;
+      font-size: 14px;
+      margin-top: 15px;
       font-style: italic;
-      color: rgb(105, 103, 103);
+      .icon {
+        font-size: 8px;
+      }
     }
   }
-  .by-people {
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin-left: 20px;
-    .by {
-      font-weight: bold;
-    }
+
+  li:last-child {
+    border: 0;
+    margin-left: 2px;
   }
+
   &::-webkit-scrollbar {
     width: 5px;
     background: #eee;

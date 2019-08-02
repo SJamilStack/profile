@@ -1,0 +1,15 @@
+.social-icons {
+  text-align: center;
+  padding-top: 10px;
+  a {
+    color: rgb(27, 23, 23);
+    display: inline-block;
+    border-radius: 6px;
+    padding: 0 4px 0 4px;
+    span {
+      padding: 4px;
+      text-decoration: underline;
+      font-size: 13px;
+    }
+  }
+}
