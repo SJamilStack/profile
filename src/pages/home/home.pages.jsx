@@ -9,7 +9,7 @@ import {
   faMapMarker
 } from "@fortawesome/fontawesome-free-solid";
 import { faSkype } from "@fortawesome/free-brands-svg-icons";
-import { faHeading, faUser } from "@fortawesome/fontawesome-free-solid";
+import { faUser } from "@fortawesome/fontawesome-free-solid";
 
 const Home = props => {
   const {

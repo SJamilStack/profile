@@ -11,7 +11,7 @@ const Quotes = props => {
         <div className="quotes-inner col-md-12">
           <div className="quotes-title">
             <span />
-            <Quote quotes={props.quotes} />
+            <Quote key={props.quotes.id} quotes={props.quotes} />
           </div>
         </div>
       </div>

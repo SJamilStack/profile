@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./header.styles.scss";
 import "font-awesome/css/font-awesome.min.css";

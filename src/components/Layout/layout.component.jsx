@@ -23,7 +23,7 @@ class Layout extends React.Component {
   }
 
   render() {
-    const { id, name, role, email } = profile;
+
     return (
       <React.Fragment>
         <div className="layout container">

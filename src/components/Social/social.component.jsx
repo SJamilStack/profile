@@ -4,7 +4,7 @@ import "./social.styles.scss";
 
 const Social = props => {
   return (
-    <div class="social-icons">
+    <div className="social-icons">
       {props.socials.map(s => (
         <a
           key={s.id}
@@ -12,6 +12,7 @@ const Social = props => {
           href={s.url}
           target="_blank"
           check={s.icon}
+          rel="noopener noreferrer"
         >
           <span>{s.label}</span>
         </a>

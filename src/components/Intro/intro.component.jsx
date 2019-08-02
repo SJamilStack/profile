@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/fontawesome-free-solid";
 
 const Intro = props => {
-  const { id, name, email, role, social } = props.profile;
+  const { name, role, social } = props.profile;
 
   return (
     <div className="intro">
@@ -27,8 +27,9 @@ const Intro = props => {
 
       <div className="com-md-12 download-cv">
         <a
-          href="https://drive/link/to/cv"
+          href="http://tiny.cc/d4rnaz"
           className="download-btn icon"
+          rel="noopener noreferrer"
           target="_blank"
         >
           Download CV
